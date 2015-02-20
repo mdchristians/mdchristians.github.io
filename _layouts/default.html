@@ -1,21 +1,53 @@
 <!DOCTYPE html>
 <html>
+<head>
 
-  {% include head.html %}
+    <!--
+      ==========================================================
+      === Developed by... ========================
+      ==========================================================
+      __________    ________    _________   _________
+      /\   _  _  \  /\   __  \  /\___  ___\ /\___  ___\
+      \ \  \\_\\  \ \ \   __  \ \/__/\ \__/ \/__/\ \__/
+      \ \__\ \ \__\ \ \__\ \__\    \ \ \       \ \ \
+      \/__/  \/__/  \/__/\/__/     \/_/        \/_/
+
+      ==========================================================
+      ============================= http://mdchristians.com/ ===
+      ==========================================================
+    -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0">
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="description" content="{{ page.description }}">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</head>
 
   <body>
 
-    {% include header.html %}
+    <!-- BG -->
+  <div id="topper">
+    <div class="wrap">
+      <h1>Blog of Matt</h1>
+    </div>
+    </div>
 
+  <section id="about">
     <div class="content">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-        {{ content }}
-      </div>
-      </div>
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-10 col-md-offset-1">
+            <h2>About</h2>
+            <p>{{ content }}</p>
+          </div>
+        </div>
       </div>
     </div>
+  </section>
 
     {% include footer.html %}
 
