@@ -1,5 +1,6 @@
 <header class="site-header">
-
+  <div id="topper">
+    <div class="wrap">
   <div class="wrapper">
 
     <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
@@ -14,19 +15,17 @@
       </a>
 
 <article>
-  <div id="topper">
-    <div class="wrap">
       <div class="trigger">
-      <h1>
         {% for page in site.pages %}
           {% if page.title %}
           <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
           {% endif %}
         {% endfor %}
-        </h1>
       </div>
+      </article>
     </nav>
 
   </div>
+  </div></div>
 
 </header>
