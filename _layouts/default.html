@@ -19,6 +19,49 @@
 
     {% include footer.html %}
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.14.2/TweenMax.min.js"></script>
+    <script src="js/scrollMagic.js"></script>
+    <script src="js/animation.gsap.js"></script>
+    <script src="js/addIndicators.js"></script>
+
+    <script>
+    // Pick a random background for the demo
+    var random = Math.floor(Math.random() * 7) + 1;
+    $('#topper').css('background-image', 'url(http://www.mrwallpaper.com/wallpapers/Ocean-Waves.jpg)');
+
+
+
+    // Make the magic happen
+    $(window).load(function() {
+
+        var scrollMagicController = new ScrollMagic.Controller(
+            {
+                globalSceneOptions: {
+                    triggerHook: 'onLeave'
+                }
+            }
+        );
+        var topperTween = TweenMax.to('#topper', 1,
+            {
+                backgroundPosition: '50% '+ $('#topper').height() * 0.4 + 'px',
+                ease: Cubic.ease,
+                z: 1
+            }
+        );
+        var scene = new ScrollMagic.Scene(
+            {
+                triggerElement: '#topper',
+                duration: '60%'
+            }
+        )
+        .setTween(topperTween)
+        // .addIndicators()
+        .addTo(scrollMagicController);
+
+    });
+    </script>
+
   </body>
 
 </html>
