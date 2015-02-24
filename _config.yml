@@ -12,11 +12,11 @@ theme:
   
   # Header and footer text
   header_text: >
-     <p>An intellect for Business and a Passion for Technology. Visionary, Student, Fiance, Brother, and Son. I love College Hockey, Star Wars, Airplanes, Statistics, and an Ice Cold Surly.</p>
-     
-     <p>Powered by Code & Caffeine</p>
+     <h2>Matt Christians</h2>
+  
+     <p>An intellect for Business and a Passion for Technology. I love College Hockey, Star Wars, Statistics, and an Ice Cold Surly.</p>
   footer_text: >
-   Powered by <a href="http://jekyllrb.com">Jekyll</a> and Caffeine
+   Powered by <a href="http://jekyllrb.com">Jekyll</a>, Code & Caffeine.
   
   # Icons
   rss: false
