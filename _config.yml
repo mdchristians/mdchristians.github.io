@@ -6,13 +6,13 @@ url: "https://mdchristians.github.io/" # the base hostname & protocol for your s
 theme:
   # Meta
   title: Matt Christians
-  avatar: avatar.png
+  avatar: 
   gravatar: # email md5 hash
   description: "The Blog of Matt Christians" # used by search engines
   
   # Header and footer text
   header_text: >
-     <p>The Blog of Matt Christians</p>
+     <p>An intellect for Business and a Passion for Technology. Visionary, Student, Fiance, Brother, and Son. I love College Hockey, Star Wars, Airplanes, Statistics, and an Ice Cold Surly.</p>
      
      <p>Powered by Code & Caffeine</p>
   footer_text: >
