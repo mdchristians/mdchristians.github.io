@@ -5,18 +5,18 @@ url: "https://mdchristians.github.io/" # the base hostname & protocol for your s
 # THEME-SPECIFIC CONFIGURATION
 theme:
   # Meta
-  title: The blog of Matt Christians
+  title: Matt Christians
   avatar: avatar.png
   gravatar: # email md5 hash
-  description: "A website with blog posts and pages" # used by search engines
+  description: "The Blog of Matt Christians" # used by search engines
   
   # Header and footer text
   header_text: >
-     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+     <p>The Blog of Matt Christians</p>
      
-     <p>Remove all header text in <code>_config.yml</code> to disable this feature.</p>
+     <p>Powered by Code & Caffeine</p>
   footer_text: >
-   Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
+   Powered by <a href="http://jekyllrb.com">Jekyll</a> and Caffeine
   
   # Icons
   rss: false
