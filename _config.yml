@@ -1,7 +1,7 @@
 # Site settings
 title: Matt Christians | My thoughts in markdown
 description: "Matt Christians Blog, My Thoughts in Markdown"
-url: "http://www.mdchristians.github.io"
+url: "http://www.mdchristians.github.io/"
 author:
   name: "Matt Christians"
   url: "http://www.mdchristians.com"
@@ -19,7 +19,7 @@ paginate_path: /page:num/
 defaults:
   -
     scope:
-      path: "/"
+      path: ""
       type: "posts"
     values:
       layout: "post"
