@@ -1,13 +1,13 @@
 # Site settings
 title: Matt Christians | My thoughts in markdown
 description: "Matt Christians Blog, My Thoughts in Markdown"
-url: "http://www.mdchristians.github.io"
+url: "http://www.mdchristians.github.io/"
 author:
   name: "Matt Christians"
   url: "http://www.mdchristians.com"
 
 # Build settings
-baseurl: 
+baseurl: /     # Change this to your relative path (ex: /blog/), or leave just a /
 markdown: kramdown
 source: .
 destination: ./_site
