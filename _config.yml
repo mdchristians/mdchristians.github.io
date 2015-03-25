@@ -7,7 +7,7 @@ author:
   url: "http://www.mdchristians.com"
 
 # Build settings
-baseurl: mdchristians.github.io/
+baseurl: /
 markdown: kramdown
 source: .
 destination: ./_site
@@ -19,7 +19,7 @@ paginate_path: /page:num/
 defaults:
   -
     scope:
-      path: ""
+      path: "/"
       type: "posts"
     values:
       layout: "post"
