@@ -1,12 +1,21 @@
 ---
-layout: page
-title: About
-permalink: /about/
-feature-img: "img/sample_feature_img_2.png"
+layout: default
+title: About Emerald
 ---
+## About
+Emerald is a minimal theme created for Jekyll. The main purpose of Emerald is to provide a clear theme for those who want a blog ready to use, focused on the content and mobile-first.
 
-Type Theme is a free and open-source theme for [Jekyll](http://jekyllrb.com/), licensed under the MIT License.
+For further details on Emerald, please visit the [repository on Github](https://github.com/KingFelix/emerald/).
 
-Head over to the [theme's documentation](https://rohanchandra.github.io/project/type/) for much more information about Type Theme or to install this theme on your own Jekyll site.
+![Emerald](/img/Emerald01.png "Emerald")
 
-This file is an example of a page in Jekyll, that automatically shows up in the header navigation, you can delete or modify this file freely.
+### Setup
+Emerald may be installed by simply downloading the .zip folder frome the [repository on Github](https://github.com/KingFelix/emerald/archive/master.zip).
+
+After extracting the content from the folder into the selected directory, you can type ``jekyll serve`` from the terminal, than open your browser to ``0.0.0.0:4000/emerald/`` and you will find there.
+
+Additionally it is possible to fork the repository and using Github Pages as hosting. By following this way it will enough change the ``baseurl`` value into the ``_config.yml`` file, with the directory name of your project (for example /blog) or with a simply "/" (slash) if you want install Emerald in the root. 
+
+Last but not last: the [Jekyll documentation](http://jekyllrb.com) is the best starting point!
+
+Enjoy!

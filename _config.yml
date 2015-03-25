@@ -1,67 +1,28 @@
-# SITE CONFIGURATION
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://mdchristians.github.io/" # the base hostname & protocol for your site
+# Site settings
+title: Matt Christians | My thoughts in markdown
+description: "Matt Christians Blog, My Thoughts in Markdown"
+url: "http://www.mdchristians.github.io"
+author:
+  name: "Matt Christians"
+  url: "http://www.mdchristians.com"
 
-# THEME-SPECIFIC CONFIGURATION
-theme:
-  # Meta
-  title: Matt Christians
-  avatar: 
-  gravatar: # email md5 hash
-  description: "The Blog of Matt Christians" # used by search engines
-  
-  # Header and footer text
-  header_text: >
-     <h2>Matt Christians</h2>
-  
-     <p>An intellect for Business and a Passion for Technology. I love College Hockey, Star Wars, Statistics, and an Ice Cold Surly.</p>
-  footer_text: >
-   Powered by <a href="http://jekyllrb.com">Jekyll</a>, Code & Caffeine.
-  
-  # Icons
-  rss: false
-  email_address: # full email address, e.g. "sam@example.com"
-  behance:
-  bitbucket: 
-  dribbble: 
-  facebook: 
-  flickr: 
-  github:
-  google_plus: 
-  instagram: 
-  linkedin:  # full URL
-  pinterest: 
-  reddit: 
-  soundcloud: 
-  stack_exchange:  # full URL
-  steam: 
-  tumblr: 
-  twitter: "twitter"
-  wordpress: 
-  youtube: 
-  
-  # Scripts
-  google_analytics: # tracking id, e.g. "UA-000000-01"
-  disqus_shortname:
-  
-  # Localization strings
-  str_follow_on: "Follow on"
-  str_rss_follow: "Follow RSS feed"
-  str_email: "Email"
-  str_next: "Next"
-  str_prev: "Prev"
-  str_continue_reading: "Continue reading"
-  
-  # Colors, typography and padding
-  # Open the "_sass > base" folder, and open "_variables.scss"
-
-# PAGINATION
-paginate: 5
-paginate_path: "blog/page:num"
-
-# BUILD SETTINGS
+# Build settings
+baseurl: /
 markdown: kramdown
-highlighter: pygments
-sass:
-  sass_dir: _sass
-  style: :compressed
+source: .
+destination: ./_site
+permalink: /:title
+paginate: 8
+paginate_path: /page:num/
+
+# Default values
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Custom variables
+version: "1.0.1"
