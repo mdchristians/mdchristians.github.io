@@ -7,7 +7,7 @@ author:
   url: "http://www.mdchristians.com"
 
 # Build settings
-baseurl: /
+baseurl: mdchristians.github.io/
 markdown: kramdown
 source: .
 destination: ./_site
